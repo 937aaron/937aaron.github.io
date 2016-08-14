@@ -54,7 +54,7 @@ $black: #1b2424;
 
 .container {
   // width: 100%;
-  height: 750px;
+  // height: 750px;
   font-family: 'Quicksand', sans-serif;
   background-color: $white;
 
@@ -62,7 +62,7 @@ $black: #1b2424;
 
 .sidebar{
   display: inline-block;
-  //position: fixed;
+  position: absolute;
   width: 390px;
   height: 100%;
   background-color: $sidebar;
@@ -196,9 +196,9 @@ $black: #1b2424;
   position: absolute;;
   display: inline-block;
   vertical-align: top;
-  margin-left: 35px;
-  width: 850px;
-  height: 750px;
+  margin-left: 400px;
+  width: 70%;
+  height: 100%;
   font-size: 1.75em;
   font-family: 'Cormorant Garamond', serif;
   color: $black;

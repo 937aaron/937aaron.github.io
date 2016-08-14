@@ -46,12 +46,12 @@ table {
   border-spacing: 0; }
 
 .container {
-  height: 750px;
   font-family: 'Quicksand', sans-serif;
   background-color: #fbfbfb; }
 
 .sidebar {
   display: inline-block;
+  position: absolute;
   width: 390px;
   height: 100%;
   background-color: #5d797a;
@@ -156,9 +156,9 @@ table {
   position: absolute;
   display: inline-block;
   vertical-align: top;
-  margin-left: 35px;
-  width: 850px;
-  height: 750px;
+  margin-left: 400px;
+  width: 70%;
+  height: 100%;
   font-size: 1.75em;
   font-family: 'Cormorant Garamond', serif;
   color: #1b2424;
